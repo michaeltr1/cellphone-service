@@ -1,5 +1,5 @@
 
-public class CellPhone {
+public class Cellphone {
 
     int serialNumber;
     String model;
@@ -7,7 +7,7 @@ public class CellPhone {
     String phoneNumber;
     String owner;
 
-    public CellPhone() {
+    public Cellphone() {
         serialNumber = 0;
         model = "";
         carrier = "";
@@ -48,11 +48,10 @@ public class CellPhone {
     }
     void displayInfo() {
         System.out.println("Owner: " + owner);
-        System.out.println(("serial number: "+ serialNumber));
-        System.out.println("Model: " +model);
-        System.out.println("Carriers: "+ carrier);
+        System.out.println(("serial number: " + serialNumber));
+        System.out.println("Model: " + model);
+        System.out.println("Carriers: " + carrier);
         System.out.println("Phone number: " + phoneNumber);
-
 
 
 
