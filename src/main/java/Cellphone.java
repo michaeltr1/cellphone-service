@@ -50,10 +50,11 @@ public class Cellphone {
         System.out.println("Owner: " + owner);
         System.out.println(("serial number: " + serialNumber));
         System.out.println("Model: " + model);
-        System.out.println("Carriers: " + carrier);
-        System.out.println("Phone number: " + phoneNumber);
-
+        System.out.println("Carrier: " + carrier);
+        System.out.println("Phone number: " + phoneNumber);}
+    public void dial (String numberToDial){
+            System.out.println(owner +"'s phone is calling " + numberToDial);
+        }
 
 
     }
-}
